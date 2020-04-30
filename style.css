@@ -1,0 +1,104 @@
+/*
+
+    1.create nav section
+    2.create header
+
+
+*/
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: lightgray;
+}
+
+nav{
+    height: 50px;
+    /*border: 10px dotted black;*/
+}
+
+.header{
+    width: 850px;
+    height: 400px;
+    background-color: seagreen;
+    position: relative;
+    top: 60px;
+    left: 30px;
+
+}
+
+.header-bg{
+    height: 225px;
+    background-color:cyan;
+}
+
+.profile-heading{
+    border: 1px dotted white;
+    height: 175px;
+    background-color: white;
+}
+
+.profile-photo{
+
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg10.deviantart.net%2Fd510%2Fi%2F2011%2F306%2Fc%2Fe%2Ffallout__vault_boy_by_buggzz-d4ewswv.png&f=1&nofb=1);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 210px;
+    height: 200px;
+    width: 200px;
+     position: relative;
+
+    border-radius: 50%;
+
+    top: 100px;
+    left: 20px;
+}
+
+.profile-info{
+    position: relative;
+    top: 75px;
+    height: 90px;
+    width: 60%;
+
+}
+
+
+.profile-info h1{
+    position: relative;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.right-info-box {
+    float: right;
+    width: 40%;
+}
+
+.profile-buttons{
+    height: 40px;
+
+    position: relative;
+    top: -80px;
+}
+
+.profile-buttons button{
+    font-size: 22px;
+    background-color: blue;
+    color: white;
+    
+}
+
+.profile-and-school-badges {
+    position: relative;
+    top: -75px;
+
+}
+
+.profile-and-school-badges li {
+    list-style: none;
+}
